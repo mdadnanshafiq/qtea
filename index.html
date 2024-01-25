@@ -24,8 +24,8 @@
 </head>
 
 <body class="manrope">
-    <header>
-        <div class="max-w-[375px] mx-auto flex flex-col justify-center items-start gap-6 p-2">
+    <header class="flex flex-col md:flex-row md:justify-center md:items-center">
+        <div class="max-w-[375px] md:max-w-[360px] mx-auto flex flex-col justify-center items-start gap-6 p-2">
             <h1 class="text-7xl text-pretty font-semibold">It's good
                 tea time at The Tea House
             </h1>
@@ -35,8 +35,8 @@
             <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white font-bold">Explore more <i
                     class="fa-solid fa-arrow-right-long -rotate-45"></i></button>
         </div>
-        <div class="max-w-[375px]  mx-auto p-0">
-            <div class="relative size-[365px] mx-auto flex flex-col justify-center items-center">
+        <div class="max-w-[375px] md:-ml-8 mx-auto p-0">
+            <div class="relative size-[365px] md:size-[400px] md:-ml-8 mx-auto flex flex-col justify-center items-center">
                 <img src="images/duo.png" class="w-full" alt="">
                 <div class="absolute bottom-12 left-4 flex p-4 bg-white shadow-xl rounded-lg">
                     <img src="images/star.png" class="size-[2.5rem]" alt="">
@@ -57,7 +57,7 @@
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable. </p>
             </div>
-            <div class="flex flex-col justify-center items-center gap-6 ">
+            <div class="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-6 ">
                 <div
                     class="max-w-[330px] flex flex-col justify-center items-center gap-4 p-12 bg-gradient-to-b from-gray-200 to-white">
                     <img src="images/tea-1.png" alt="">
@@ -85,8 +85,8 @@
 
             </div>
         </section>
-        <section>
-            <div class="flex flex-col justify-center items-start  *:text-pretty max-w-[375px] mx-auto gap-6 my-8 p-4">
+        <section class="md:flex md:flex-col md:justify-center md:items-center md:p-4">
+            <div class="flex flex-col justify-center items-start  *:text-pretty md:max-w-[90vw] max-w-[375px]  mx-auto gap-6 my-8 p-4">
                 <h2 class="text-5xl font-bold">Great Tea, Freshly Presented</h2>
                 <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
                     represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
@@ -97,17 +97,17 @@
                 <h4 class="text-xl font-bold">Premium Quality</h4>
                 <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
-            <div class="grid grid-cols-1 justify-center items-center gap-8 *:w-[15rem] *:mx-auto *:rounded-2xl">
-                <div class="h-[11rem] bg-gradient-to-r from-pink-100 to-pink-50">
+            <div class="grid grid-cols-1 md:grid-cols-2 md:h-max justify-center items-center gap-8 md:gap-4 *:w-[15rem] *:mx-auto *:rounded-2xl">
+                <div class="  h-[11rem] bg-gradient-to-r from-pink-100 to-pink-50">
 
                 </div>
-                <div class="flex justify-center items-center h-[23rem] bg-gradient-to-b from-yellow-100 to-yellow-100">
+                <div class=" md:row-span-2 flex justify-center items-center h-[23rem] bg-gradient-to-b from-yellow-100 to-yellow-100">
                     <img src="images/fresh-1.png" alt="">
                 </div>
-                <div class="flex justify-center items-center h-[23rem] bg-gradient-to-b from-green-100 to-green-100">
+                <div class=" md:row-span-2  flex justify-center items-center h-[23rem] bg-gradient-to-b from-green-100 to-green-100">
                     <img src="images/fresh-2.png" alt="">
                 </div>
-                <div class="h-[11rem] bg-gradient-to-r from-orange-100 to-orange-50">
+                <div class="  h-[11rem] bg-gradient-to-r from-orange-100 to-orange-50">
 
                 </div>
             </div>
@@ -180,7 +180,7 @@
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable. </p>
             </div>
-            <div class="grid grid-cols-1 justify-center my-6 gap-6 items-center">
+            <div class="grid grid-cols-1 md:flex md:flex-wrap lg:max-w-fit lg:mx-auto lg:grid-cols-3  justify-center my-6 gap-6  items-center">
                 <div class="card max-w-[350px] mx-auto border-[1px] bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="images/news-1.png" alt="Shoes" class="rounded-xl" />
@@ -227,12 +227,12 @@
             <div>
                 <img src="images/cup.png" alt="">
             </div>
-            <div>
+            <div class="flex flex-col items-start justify-center gap-4">
                 <p class="text-xl font-bold">Ready to get strated?</p>
                 <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white font-bold">Get Started</button>
             </div>
         </div>
-        <div class="flex flex-wrap justify-center *:text-center items-center gap-16">
+        <div class="flex flex-wrap justify-center *:text-center items-start gap-16">
             <div>
                 <ul>
                     <li><a href="" class="text-xl font-bold">Quick Links</a></li>
